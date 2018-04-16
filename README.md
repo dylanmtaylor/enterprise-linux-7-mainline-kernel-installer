@@ -8,4 +8,4 @@ Never pipe anything to bash without reading the code to make sure it's safe.
 curl https://raw.githubusercontent.com/dylanmtaylor/enterprise-linux-7-mainline-kernel-installer/master/mainline-kernel.sh | sudo bash
 ```
 
-on reboot, sudo yum remove kernel to remove the Red Hat kernel package so the kernel-ml is used instead.
+on reboot, `sudo yum remove kernel kernel-debug-devel` to remove the Red Hat kernel package so the kernel-ml is used instead.
