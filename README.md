@@ -1,4 +1,4 @@
-# enterprise-linux-7-mainline-kernel-installer
+# Enterprise Linux v7 Mainline Kernel Installer
 Simple script that installs the ElRepo mainline kernel on RHEL/CentOS 7.
 
 Never pipe anything to bash without reading the code to make sure it's safe.
