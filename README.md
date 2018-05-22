@@ -9,3 +9,5 @@ curl https://raw.githubusercontent.com/dylanmtaylor/enterprise-linux-7-mainline-
 ```
 
 on reboot, `sudo yum remove kernel kernel-debug-devel` to remove the Red Hat kernel package so the `kernel-ml` package is used instead.
+
+After an update, you may need to run the command `grub2-set-default 0` to set the newly installed kernel as the default for boot on a server installation.
